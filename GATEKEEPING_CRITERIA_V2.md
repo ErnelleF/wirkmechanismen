@@ -241,19 +241,30 @@ Ziel: Sicherstellen, dass jedes im Modell akzeptierte Element bewertbar (messbar
   - Solange kein Cluster-Katalog versioniert vorliegt, ist die Cluster-Zuordnung optional und darf den Merge nicht blockieren.
   - Nach Einführung des Katalogs wird die Regel auf "MANDATORY" gesetzt und durch CI/Linter durchgesetzt.
 
+  Clusterung nach Informationsfluss:
+  1. Informationsinput (Erzeugung)
+  2. Informationsverteilung (Zugänglichkeit)
+  3. Informationsverarbeitung (Verstehen/Bewerten)
+  4. Informationsspeicherung (Persistenz)
+  5. Informationsnutzung (Entscheidung/Handlung)
+  6. Rahmenbedingungen (Kontext & Moderatoren)
+  7. Ergebnisgrößen (Outcomes)
+
 ## Ergänzung (perspektivisch): Zuordnung für Einflussfaktoren zu MTO und St. Galler Management Model (TAGS)
 
 - **STATUS**: Diese Regel wird aktiv, sobald ein versionierter TAGS-Katalog eingeführt ist (z. B. als dedizierte Datei mit zulässigen TAGS-IDs und Definitionen).
 - **MANDATORY (ab Aktivierung)**: Jedem neuen Einflussfaktor muss mindestens ein MTO-Tag und ein St. Galler Management-Model-Tag zugeordnet sein.
 
 Aufteilung MTO:
-M = Mensch, T = Technik, O = Organisation.
+1. M = Mensch, 
+2. T = Technik, 
+3. O = Organisation.
 
 Aufteilung St. Galler Management Model:
-operativ = operative Ebene (z.B. Entwicklerteam),
-taktisch = taktische Ebene (z.B. Scrum Master (SM), Product Owner (PO), Teamleiter (TL)),
-strategisch = strategische Ebene (z.B. Abteilungsleiter),
-normativ = normative Ebene (z.B. Management)
+1. operativ = operative Ebene (z.B. Entwicklerteam),
+2. taktisch = taktische Ebene (z.B. Scrum Master (SM), Product Owner (PO), Teamleiter (TL)),
+3. strategisch = strategische Ebene (z.B. Abteilungsleiter),
+4. normativ = normative Ebene (z.B. Management)
 
 - **MANDATORY (ab Aktivierung)**: Die TAGS-Zuordnung muss über die in KUMU vorhandenen TAGS geführt werden und gegen den aktiven TAGS-Katalog validierbar sein.
 Beim Anlegen eines neuen Elements ohne TAGS-Zuordnung soll folgender Hinweis angezeigt werden:
