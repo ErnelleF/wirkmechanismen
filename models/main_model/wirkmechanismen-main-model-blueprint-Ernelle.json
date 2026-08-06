@@ -8,9 +8,11 @@
         "element type": "Einflussfaktoren",
         "cluster":" Ergebnisgrößen (Outcomes)",
          "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
-        ],
+        ], 
         "closeness": 0.22792857142857137,
         "metrics::last": 0.9118911790819462,
         "degree": 10,
@@ -33,7 +35,8 @@
         "label": "Expliziter Wissensstand der Organisation",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "strategisch"
         ],
         "element type": "Schlüsselfaktor",
@@ -60,8 +63,10 @@
         "label": "Flexibilität der Ziele in der Teamzielsetzung",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Mensch + Organisation",
-          "operativ / taktisch"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
         ],
         "element type": "Einflussfaktoren",
         "description": "= Sprintziel",
@@ -113,7 +118,10 @@
         "label": "Fehlerakzeptanz im Teamumfeld",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
@@ -141,7 +149,8 @@
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
           "Technik",
-          "operativ + strategisch"
+          "operativ",
+          "strategisch"
         ],
         "description": "System dann komplex, wenn z.B. seine Elemente und/oder Beziehungen nicht mehr vollständig erfassbar bzw. verstehbar sind (keine vollständige Beschreibung der Struktur und des Verhaltens des Systems möglich). -> z.B. beim emergenten Verhalten\n\n\n\nEvtl. Reduktion durch Etappenbasierte Zielzerlegung?",
         "closeness": 0.3621666666666667,
@@ -166,8 +175,12 @@
         "label": "Ressourcenauslastung",
         "description": "= Ressourcenallokation",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
@@ -193,7 +206,8 @@
         "label": "Ambiguität der Prozessanforderungen",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "element type": "Einflussfaktoren",
@@ -249,7 +263,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "description": "=Vertrauen",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+          "Organisation",
           "normativ"
         ],
         "closeness": 0.01,
@@ -274,7 +289,8 @@
         "label": "Aufgabenbelastung der Teammitglieder",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+          "Organisation",
           "operativ"
         ],
         "element type": "Einflussfaktoren",
@@ -302,8 +318,10 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "element type": "Einflussfaktoren",
         "tags": [
-          "Organisation + Technik",
-          "operativ + taktisch"
+          "Organisation",
+          "Technik",
+          "operativ",
+          "taktisch"
         ],
         "description": "= Osmotische Kommunikation",
         "closeness": 0,
@@ -329,7 +347,10 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "description": "= Umgang mit digitalen Medien",
@@ -379,7 +400,8 @@
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "description": "Bereitschaft zu Handeln und sein Wissen einzusetzen",
         "tags": [
-          "Technik + Mensch",
+          "Technik",
+          "Mensch",
           "operativ"
         ],
         "closeness": 0.3038333333333332,
@@ -433,7 +455,9 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
           "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "description": "Hindernisse: Systematische Ermittlung und effektive Beseitigung von Hindernissen.\n\nund \n\nAbhängigkeiten: Förderung der Ermittlung und Lösung von Abhängigkeiten.",
@@ -460,7 +484,9 @@
         "cluster":"Informationsinput (Erzeugung)",
         "element type": "Problem",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "closeness": 0.45033333333333336,
@@ -513,7 +539,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Organisation",
-          "strategisch / operativ"
+          "strategisch",
+          "operativ"
         ],
         "element type": "Einflussfaktoren",
         "description": "= Teamgröße",
@@ -539,7 +566,8 @@
         "label": "Strukturierungsklarheit des Meetings",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "element type": "Einflussfaktoren",
@@ -568,8 +596,10 @@
         "cluster":"Informationsspeicherung (Persistenz)",
         "description": "Von \"Zustand der völligen Unwissenheit\" bis \"Zustand des vollständigen Wissens\"\n\nAlternative Formulierung:\nNotwendiger Wissensstand zur Erfüllung einer Aufgabe?",
         "tags": [
-          "Mensch + Technik",
-          "operativ + strategisch"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "strategisch"
         ],
         "closeness": 0.40950000000000003,
         "metrics::last": 0.759192611956293,
@@ -594,8 +624,13 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MTO",
-          "alle"
+         "Mensch",
+          "Technik",
+          "Organisation",
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Inhaltliche Präzision der Kunden-/Nutzerprobleme, die ein Entwicklungsvorhaben adressiert. Bewertet wird, wie klar Nutzenversprechen, Stakeholder, fachliche Randbedingungen und Erfolgskriterien beschrieben sind, bevor Stories oder technische Lösungen geschnitten werden. Messbar z.B. über Opportunity-Canvas-Reife, Anteil der Initiativen mit abgestimmtem Problem Statement oder Discovery-Review-Bewertungen. Fokus auf dem \"Warum\" und \"Was\" des Problems – unabhängig davon, wie das Backlog später verfeinert wird.",
         "closeness": 0.2849999999999999,
@@ -621,7 +656,9 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
@@ -648,7 +685,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+          "Organisation",
           "operativ"
         ],
         "closeness": 0,
@@ -675,7 +713,8 @@
         "description": "Grad der Klarheit, Priorisierung, Vollständigkeit und Umsetzbarkeit der Product-Backlog-Einträge (z.B. klare Akzeptanzkriterien, gut geschnittene Items).",
         "element type": "Einflussfaktoren",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "measurability": 1.0,
@@ -694,8 +733,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "Technik + Organisation",
-          "taktisch / operativ"
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
         ],
         "measurability": 1.0,
         "influenceability": 0.5,
@@ -711,6 +752,7 @@
         "label": "Klarheit und Verständlichkeit der Ziele",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
+          "Mensch",
           "Organisation",
           "taktisch"
         ],
@@ -765,7 +807,10 @@
         "label": "Relevanzbezogene Kommunikation der Inhalte",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
@@ -793,7 +838,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Organisation + Mensch",
+          "Organisation",
+          "Mensch",
           "taktisch"
         ],
         "description": "=Verantwortlichkeiten",
@@ -822,7 +868,9 @@
         "tags": [
           "Organisation",
         
-          "operativ / Taktisch / strategisch"
+          "operativ",
+          "taktisch",
+          "strategisch"
         ],
         "element type": "Einflussfaktoren",
         "closeness": 0,
@@ -928,7 +976,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
-          "operativ / normativ"
+          "operativ",
+         "normativ"
         ],
         "element type": "Einflussfaktoren",
         "measurability": 0,
@@ -946,8 +995,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "Mensch + Organisation",
-          "alle"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0.03166666666666666,
         "metrics::last": 0.7330929956485938,
@@ -972,7 +1025,10 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "description": "= Nonverbale Kommunikation",
@@ -999,7 +1055,9 @@
         "element type": "Problem",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "closeness": 0.4558333333333334,
@@ -1024,7 +1082,9 @@
         "label": "Priorisierung von  Aufgaben",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "MTO",
+         "Mensch",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "element type": "Einflussfaktoren",
@@ -1053,7 +1113,10 @@
         "element type": "Einflussfaktoren",
         "tags": [
           "Technik",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "= Tools",
         "closeness": 0,
@@ -1105,7 +1168,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "closeness": 0,
@@ -1131,7 +1195,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Organisation + Mensch",
+          "Organisation",
+          "Mensch",
           "strategisch"
         ],
         "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
@@ -1157,8 +1222,10 @@
         "label": "Vertrautheit zwischen Teammitgliedern",
         "element type": "Einflussfaktoren",
         "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
-        "tags": ["Mensch",
-      "operativ / normativ"],
+        "tags": [
+          "Mensch",
+      "operativ",
+      "normativ"],
         "measurability": 0,
         "influenceability": 0.5,
         "indegree": 1,
@@ -1221,7 +1288,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Organisation + Mensch",
+          "Organisation",
+          "Mensch",
           "taktisch"
         ],
         "description": "Vorhandensein und Zugänglichkeit von etablierten, wiederkehrenden informellen Interaktionsmöglichkeiten im Teamalltag (z.B. Kaffeepausen, gemeinsame Mittagessen, Stehtisch-Chats, Gemeinschaftsräume). Unterscheidet sich von Häufigkeit informeller Begegnungen durch den Fokus auf die Infrastruktur/Kultur, die diese ermöglicht. Messbar über: Verfügbarkeit von Gemeinschaftsräumen, Angebot informeller Time-Slots, Team-Feedback zu Gelegenheitsstrukturen.",
@@ -1240,8 +1308,11 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "element type": "Einflussfaktoren",
         "tags": [
-          "MTO",
-          "taktisch / strategisch"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "strategisch"
         ],
         "description": "Bedarf an Rollen/Personen, die zwischen Teamgrenzen vermitteln, Übersetzungen leisten und Abstimmung koordinieren.",
         "closeness": 0,
@@ -1322,7 +1393,10 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0.2911314984709478,
         "metrics::last": 0.7613808958525524,
@@ -1348,7 +1422,8 @@
         "element type": "Problem",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "closeness": 0.2535952380952379,
@@ -1401,7 +1476,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+           "Organisation",
           "operativ"
         ],
         "label": "Häufigkeit des Aufgabenwechsel",
@@ -1428,7 +1504,9 @@
         "description": "Alternativ:\nGrad des gemeinsamen Teamverständnisses",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "element type": "Einflussfaktoren",
@@ -1483,7 +1561,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Technik",
-          "operativ/taktisch"
+          "operativ",
+          "taktisch"
         ],
         "description": "Die Definition und Einhaltung von WIP-Limits, um Überlastung zu vermeiden und den Fokus des Teams zu stärken, sodass nur die notwendige Anzahl von Aufgaben gleichzeitig bearbeitet wird.\n\n\nWork in Progress (WIP) bezieht sich auf die (parallel stattfindenden) Arbeiten, an denen das Scrum Team seine Tätigkeit begonnen aber noch nicht abgeschlossen hat. \nScrum Teams, die Kanban verwenden, müssen die Menge begonnener Arbeit explizit begrenzen. Ein Scrum Team kann WIP ausdrücklich so begrenzen, wie es das für passend hält, sollte sich jedoch an eine einmal eingeführte Begrenzung halten. \nDer wesentliche Effekt des Begrenzens von WIP besteht darin, dass ein Pull-System erzeugt wird. Ein Pull-System wird so bezeichnet, weil das Team nur dann mit den Tätigkeiten an einer Arbeit beginnt, diese also zieht (engl. pull), wenn klar ist, dass es auch über die entsprechende Kapazität verfügt. Wenn WIP, also die Menge laufender Arbeit, unter den festgelegten Grenzwert fällt, ist dies das Signal zum Beginnen neuer Arbeit. Beachten Sie, dass dies anders \nist als bei einem Push-System, bei dem die Tätigkeit an einer Arbeit immer dann beginnt, wenn dies gefordert wird. \nDas Begrenzen von WIP fördert den Arbeitsfluss und verbessert Selbstmanagement, Fokus, Commitment und Zusammenarbeit im Scrum Team\n\n**Quelle**: Der Kanban Guide für Scrum Teams",
         "closeness": 0,
@@ -1509,8 +1588,12 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Struktur und Zielorientierung: Übereinstimmung des Daily mit dem Sprint-Ziel prüfen.",
         "closeness": 0.33766666666666656,
@@ -1590,8 +1673,11 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "MTO",
-          "taktisch + operativ"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
         ],
         "closeness": 0.3109999999999997,
         "metrics::last": 1,
@@ -1616,8 +1702,12 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
          "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Zeitmanagement: Dafür sorgen, dass die Sitzung effizient bleibt.",
         "closeness": 0.2656666666666665,
@@ -1670,8 +1760,13 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "MTO",
-          "alle"
+         "Mensch",
+          "Technik",
+          "Organisation",
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Vorschlag für die Definition (bzw. Bewertung der Qualität): \n\nKommunikationsmodell von Shannon und Weaver als Grundlage\n-> Das was gesendet wird, soll auch im Optimallfall ohne merkliche Verluste beim Empfänger ankommen\n\n-> weitere Modelle je Situation (5 Axiome der Kommunikation von Watzlawick, Kommunikationsquadrat von Schulz von Thun, etc.)\n\nWichitge Eigenschaften einer \"guten\" Kommunikation:\n- Klarheit der Botschaft\n- Transparenz des Inhaltes (der Absicht)\n- situations- und adressatengerecht (Tonfall, Sprache, Inhalt)\n- Kohärenz (logisch und nicht widersprüchlich)\n- Aufmerksamkeit (aktives Zuhören)\n- Soziale Faktoren (Respekt, Wertschätzung, Empathie)\n- Sprachliche und nonverbale Kongruenz",
         "closeness": 0.3901666666666666,
@@ -1742,8 +1837,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
          "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "measurability": 0.5,
         "influenceability": 1.0,
@@ -1761,7 +1860,8 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
          "tags": [
           "Technik",
-          "UNKLAR"
+          "operativ",
+          "taktisch"
         ],
         "description": "Die Fähigkeit, den Workflow und die einzelnen Aufgabenstellungen klar und transparent darzustellen, verbessert das Verständnis und das Management von WIP.\n\nÜber die Visualisierung mit dem Kanban Board macht das Scrum Team seinen Workflow transparent. Das Board sollte derart gestaltet sein, dass die richtigen Gespräche zum richtigen Zeitpunkt angeregt und Verbesserungsmöglichkeiten proaktiv vorschlagen werden. \nDie Visualisierung sollte folgende Aspekte umfassen: \n* Definierte Punkte, an denen das Scrum Team Arbeit als begonnen und als \nabgeschlossen betrachtet. \n* Eine Definition von Arbeit (work items) - einzelne Einheiten von Wert (für Stakeholder, durch das Erlangen von Wissen, durch Prozessverbesserung), die durch das Arbeitssystem des Scrum Teams fließen; höchstwahrscheinlich Product-Backlog-Einträge (PBI). \n* Eine Definition der Workflow-Stadien, welche die Arbeiten (work items) von Beginn bis Ende durchlaufen (und von denen mindestens ein Stadium als “aktiv” im Sinne von “in Arbeit” definiert sein muss). \n* Explizite, also ausdrücklich und klar formulierte, Regeln, wie Arbeit durch die \neinzelnen Stadien fließt. (Diese könnten Elemente aus der Definition of Done des Scrum Teams und Pull-Regeln zwischen den Stadien beinhalten). \n* Regelungen zur Begrenzung von Work in Progress (WIP).\n\n\n**Quelle**: Der Kanban Guide für Scrum Teams",
         "closeness": 0,
@@ -1786,8 +1886,14 @@
         "label": "Verständlichkeit der Zieldefinition",
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
-        "tags": [ "MTO",
-          "alle"
+        "tags": [
+           "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0.21828309305373525,
         "metrics::last": 0.8254970866986676,
@@ -1812,8 +1918,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "= Jeder hat jeden gesehen",
         "closeness": 0,
@@ -1840,7 +1950,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "description": "Entscheidungsfreiraum\n- z.B. Ziel ist vorgegeben, die Umsetzung bleibt \"frei\"\n- Nutzung von Tools, Methoden, etc. ist frei",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+          "Organisation",
           "taktisch"
         ],
         "closeness": 0.2405952380952379,
@@ -1867,7 +1978,10 @@
         "cluster":" Ergebnisgrößen (Outcomes)",
          "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0,
         "metrics::last": 0.6053508837084305,
@@ -1893,7 +2007,10 @@
         "cluster":" Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Grad, in welchem sich das Team auf die gleichen Sprint-Ziele, deren Sinnhaftigkeit und gemeinsamen Purpose geeinigt hat. Teams mit hoher Zielkongruenz ziehen an einem gemeinsamen Strang, brauchen weniger Klärungsdiskussionen und können autonomer selbst organisieren. Messbar über Planning-Poker-Consensus, Retro-Feedback zu unterschiedlichen Goal-Verständnissen, Engagement-Leveln.",
         "closeness": 0.22026190476190471,
@@ -1946,7 +2063,10 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "description": "=Synchron vs. asynchron",
@@ -1973,8 +2093,10 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
          "tags": [
-          "Mensch + Organisation",
-          "strategisch / normativ"
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "normativ"
         ],
         "description": "Kontinuierliche Überwachung und schnelles Anpassen von Prozessen zur Sicherstellung eines reibungslosen Durchlaufs von Aufgaben durch das System.\n\nWIP zu begrenzen ist notwendig, jedoch nicht hinreichend, um Flow zu erreichen, also Arbeit in Fluss zu bringen. Die dritte Praktik, um Flow zu erzeugen, besteht im aktiven Management laufender Arbeiten. Innerhalb eines Sprints kann dieses Management durch das Scrum Team verschiedene Formen annehmen, einschließlich, aber nicht beschränkt auf die Folgenden: \n* Sichergehen, dass Arbeit nur mit ungefähr der gleichen Geschwindigkeit in den \nWorkflow gezogen wird, mit der sie ihn auch verlässt. \n* Sicherstellen, dass Arbeiten nicht unnötig altern. \n* Schnelles Reagieren auf blockierte oder wartende Arbeiten sowie auf solche, die die erwarteten Durchlaufzeiten des Teams überschreiten - siehe Service-Level-Erwartung (SLE).\n\n**Service-Level-Erwartung (SLE)**\nEine Service-Level-Erwartung (SLE) prognostiziert, wie lange eine bestimmte Arbeit benötigt, um von Beginn bis Ende durch den Workflow des Scrum Teams zu fließen. Das Scrum Team verwendet seine SLE, um bestehende Ablaufprobleme zu finden und zu überprüfen und anzupassen, wenn die erwarteten Service Levels nicht erfüllt werden.",
         "closeness": 0.2560952380952379,
@@ -2054,8 +2176,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
           "tags": [
-          "Mensch/Technik",
-          "vorwiegend die unteren Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch"
         ],
         "description": "**Durchlaufzeit**: Die Zeitspanne, die zwischen dem Beginn einer Arbeit und dem Abschluss einer Arbeit vergeht.\n\n**Quelle**: Der Kanban Guide für Scrum Teams (Januar 2021)",
         "closeness": 0.2826666666666666,
@@ -2082,7 +2206,10 @@
         "cluster":" Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen.",
         "closeness": 0.27863095238095226,
@@ -2109,7 +2236,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Organisation + Mensch",
+          "Organisation",
+          "Mensch",
           "taktisch"
         ],
         "closeness": 0.22026190476190471,
@@ -2163,7 +2291,8 @@
         "element type": "Einflussfaktoren",
         "cluster":" Ergebnisgrößen (Outcomes)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "description": "Grad der Übereinstimmung und Erfüllung des Artefakts mit den Kundenanforderungen, Akzeptanzkriterien und Sprintzielen. Misst, wie gut ein Artefakt (Prototyp, Mockup, Code, Design, etc.) die gestellten Anforderungen umsetzt und festgelegten Qualitätskriterien entspricht.",
@@ -2215,8 +2344,12 @@
         "label": "Transparenz des Aufgabenstatus",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "element type": "Einflussfaktoren",
         "closeness": 0,
@@ -2268,7 +2401,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MT",
+          "Mensch",
+          "Technik",
           "operativ"
         ],
         "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
@@ -2368,8 +2502,10 @@
         "label": "Handlungskompetenz des Team Lead",
         "description": "Handlungskompetenz des Team Leads, situativ angemessen zu entscheiden und umzusetzen.",
         "tags": [
-          "Mensch + Organisation",
-          "taktisch + strategisch"
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "strategisch"
         ],
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
@@ -2395,8 +2531,11 @@
         "label": "Umfang der Technischen Schulden",
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
-        "tags":[ "MTO",
-      "operativ"
+        "tags":[ 
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ"
     ],
         "closeness": 0.2776666666666666,
         "metrics::last": 0.7720321188028204,
@@ -2421,7 +2560,9 @@
         "element type": "Einflussfaktoren",
         "cluster":" Ergebnisgrößen (Outcomes)",
          "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "closeness": 0.01,
@@ -2447,7 +2588,8 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "closeness": 0.33349999999999985,
@@ -2501,7 +2643,12 @@
         "element type": "Einflussfaktoren",
         "description": "z.B. verfügbare/notwendige Ressourcen, Budget, technische Anforderungen, Prioritäten",
         "tags": [
-          "Expliziter Wissensstand der Organisation"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0.3233333333333331,
         "metrics::last": 0.7234228166981763,
@@ -2526,8 +2673,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Organisation + Technik",
-          "operativ + taktisch"
+          "Organisation",
+          "Technik",
+          "operativ",
+          "taktisch"
         ],
         "description": "= Definition of Done (DoD)",
         "closeness": 0,
@@ -2554,7 +2703,9 @@
         "element type": "Problem",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "strategisch"
         ],
         "closeness": 0,
@@ -2580,8 +2731,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Organisation + Mensch",
-          "taktisch + operativ"
+          "Organisation",
+          "Mensch",
+          "taktisch",
+          "operativ"
         ],
         "description": "\"Was muss getan werden, um an das Ziel zu kommen\"\n\nkonträre Auswirkung bzgl. Handlungsfähigkeit und Autonomie.\n- Zu eng und detailliert -> wenig Raum für \"eigenes Handeln\" (schlecht für Autonomie)\n- Nicht klar genug -> Handlungsunfähig, weil keine Ahnung was genau zu tun ist.",
         "closeness": 0.3499999999999998,
@@ -2607,7 +2760,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "element type": "Einflussfaktoren",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "description": "= Klassifizierung der Abhängigkeiten (z.B sequeniell)",
@@ -2635,7 +2789,8 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
-          "operativ / taktisch"
+          "operativ",
+          "taktisch"
         ],
         "description": "= Konfliktfähigkeit",
         "closeness": 0.2202619047619047,
@@ -2661,8 +2816,10 @@
         "element type": "Einflussfaktoren",
         "cluster":" Ergebnisgrößen (Outcomes)",
          "tags": [
-          "Technik + Organisation",
-          "operativ + Technik"
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch"
         ],
         "closeness": 0.015,
         "metrics::last": 0.6795427253957788,
@@ -2687,8 +2844,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
          "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "measurability": 1.0,
         "influenceability": 1.0,
@@ -2706,8 +2867,13 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "description": "1. \"Dynamik und Variabilität im Systemumfeld: Variabilität und Dynamik im System neigen dazu, zu Volatilität zu führen. Dies kann sich in der Produktentwicklung durch schnell wechselnde Kundenanforderungen oder Marktpräferenzen äußern\"\n2. Unvorhergesehene technologische Sprünge: Unerwartet neue Technologien oder konkurrierende Lösungen auf dem Markt -> machen bisherigen technischen Annahmen oder Design-Entscheidungen obsolet -> Umdenken\n3. Schwankende Rohstoffpreise, unerwartete Regulatorien (\"Trump-Zölle\"), etc.\n\nPendzik - VUCA",
         "tags": [
-          "MTO",
-          "alle Ebenen"
+         "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0.278595238095238,
         "metrics::last": 0.825817274358828,
@@ -2732,8 +2898,10 @@
         "element type": "Schlüsselfaktor",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Technik + Technik",
-          "operativ + taktisch"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch"
         ],
         "description": "Verständlich dargestellte Informationen, die leicht kontextuell zu deuten sind",
         "closeness": 0.3386666666666666,
@@ -2760,7 +2928,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Organisation + Mensch",
+          "Organisation",
+          "Mensch",
           "taktisch"
         ],
         "micmac influence": 0,
@@ -2783,7 +2952,10 @@
         "description": "Das Arbeiten auf verschiedenen Programmebenen, bei der Praktiken in großen und komplexen Projekten über mehrere Teams hinweg skaliert werden, soll ermöglicht werden. Eine Skalierbarkeit agiler Praktiken ermöglicht Flexibilität um beispielsweise auch bei großen Projekten die verschiedene Anwendungen, Plattformen oder Techniken beeinflussen zu können.",
         "tags": [
           "Organisation",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.6330977784961899,
@@ -2804,7 +2976,9 @@
         "description": "Es wird stark auf die Einhaltung der regulären Arbeitszeiten geachtet. Ziel ist es vielmehr hart zu arbeiten, aber nicht zu lange. Überstunden strengen an und haben einen negativen Einfluss auf die Kreativität, den Spaß und die Produktivität und führen zu hohen Fehlerraten.",
         "element type": "Einflussfaktoren",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "micmac influence": 0,
@@ -2826,8 +3000,12 @@
         "description": "Eine stufenweise agile Transformation ist sinnvoll im Zuge der Nachhaltigkeit. Häufig wird die Implementierung in drei Phasen verstanden: \"Agil\" 1) anwenden [Praktiken], 2) verstehen [Prinzipien], 3) sein [Werte]; Je nach Kontext kann Agilität auch anders angewandt werden: nur Übernahme einzelner Praktiken; agile Ausführung von Aufgaben und Projektphasen; selbst organisierte Teams & agile Unternehmenskultur. Für das Erreichen eines nachhaltigen Agilitäts-Levels reicht allerdings das alleinige erfolgreiche Ausführen agiler Methoden und Praktiken nicht (auch wenn es oft als sehr agil wahrgenommen wird).",
         "element type": "Einflussfaktoren",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -2893,7 +3071,10 @@
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -2915,8 +3096,12 @@
         "element type": "Einflussfaktoren",
         "cluster": "Informationsspeicherung (Persistenz)",
         "tags": [
-          "MO",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -2937,8 +3122,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "MO",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -2959,8 +3148,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MTO",
-          "alle ex normativ"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -2981,8 +3174,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.9013959819624902,
@@ -3045,8 +3242,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
-          "operativ / normativ"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.8535044718337663,
@@ -3068,7 +3267,8 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "operativ / normativ"
+          "operativ",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
@@ -3089,7 +3289,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+           "Organisation",
           "normativ"
         ],
         "micmac influence": 0,
@@ -3111,8 +3312,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "measurability": 0.5,
         "influenceability": 0.5,
@@ -3153,8 +3358,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MO",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3175,8 +3384,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
-          "taktisch + strategisch"
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "strategisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3197,8 +3408,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
-          "alle"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3219,8 +3434,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+         "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3242,8 +3461,13 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "MTO",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3287,8 +3511,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch + Organisation",
-          "taktisch / operativ"
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "operativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3309,8 +3535,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3332,7 +3562,9 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle ex normative"
+          "operativ",
+          "taktisch",
+          "strategisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3354,7 +3586,10 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3396,7 +3631,8 @@
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
           "Mensch",
-          "operativ , taktisch"
+          "operativ",
+          "taktisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3417,8 +3653,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
@@ -3439,8 +3679,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "Mensch + Organisation",
-          "taktisch / strategisch"
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "strategisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3462,7 +3704,10 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
@@ -3526,8 +3771,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Organisation + Technik",
-          "operativ + taktisch"
+          "Organisation",
+          "Technik",
+          "operativ",
+          "taktisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0.6984704611086446,
@@ -3549,7 +3796,10 @@
         "element type": "Einflussfaktoren",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.6885549396250221,
@@ -3570,8 +3820,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "MO",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
@@ -3592,8 +3846,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3614,8 +3872,11 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MTO",
-          "taktisch / operativ"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3636,7 +3897,9 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "micmac influence": 0,
@@ -3658,7 +3921,9 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "micmac influence": 0,
@@ -3681,8 +3946,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "Mensch/Organisation",
-          "operativ / (taktisch)"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3725,8 +3992,12 @@
         "description": "Es werden Tools zur Visualisierung des Projektfortschrittes, wie z.B. \"burndown-charts\" genutzt, die zentral für alle Teammitglieder und evtl. Stakeholder sichtbar sind. Ziel ist die ständige und bewusste Pflege gut sichtbarer Informationsregister zur Erhöhung des Situationsbewusstsein und besseren Koordinierung von Aufgaben.",
         "element type": "Einflussfaktoren",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
@@ -3747,8 +4018,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Mensch/Technik",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3769,7 +4044,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Mensch/Technik",
+          "Mensch",
+          "Technik",
           "operativ"
         ],
         "micmac influence": 0,
@@ -3792,7 +4068,11 @@
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
+      
         ],
         "micmac influence": 0,
         "metrics::last": 0.8729263522091324,
@@ -3814,7 +4094,10 @@
         "element type": "Einflussfaktoren",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3836,7 +4119,10 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3857,8 +4143,13 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "MTO",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3899,7 +4190,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Mensch + Organisation",
+          "Mensch",
+          "Organisation",
           "taktisch"
         ],
         "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
@@ -3927,8 +4219,12 @@
         "cluster":" Ergebnisgrößen (Outcomes)",
         "description": "Quantifizierbare Menge des durch das Team/Produkt generierten Werts für Stakeholder. Messbar durch Metriken wie Customer Satisfaction Scores, Net Promoter Score, Business Value Points, Feature Adoption Rate und Return on Investment. Repräsentiert das primäre Ziel agiler Entwicklungsprozesse: kontinuierliche Wertlieferung an Kunden und Organisation.",
         "tags": [
-          "Mensch + Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "closeness": 0,
         "metrics::last": 0,
@@ -3953,8 +4249,12 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "element type": "Einflussfaktoren",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Die durch objektive Mediencharakteristiken definierte Basis-Reichhaltigkeit eines Kommunikationsmediums gemäß Media Richness Theory (Daft & Lengel, 1986). Diese wird durch vier messbare Kriterien definiert: (1) Anzahl der Hinweise/Cues (nonverbale Signale, Körpersprache, Tonfall), (2) Reaktionszeit bzw. Feedbackgeschwindigkeit (synchron vs. asynchron), (3) Anpassbarkeit der Antwort (Grad der Individualisierung), und (4) Natürlichkeit der Sprache (technisch vs. natürlich). Dies ergibt eine strukturelle Rangfolge: Face-to-Face (höchste Richheit mit allen Cues und sofortiger Anpassung) > Video (viele Cues, schnelles Feedback) > Telefon (Audio-Cues, schnelles Feedback) > schriftliche Medien wie Email (minimale Cues, asynchron). Diese Rangfolge ist objektiv, aber ihre tatsächliche Effektivität für eine konkrete Aufgabe wird durch die Erfahrung der Kommunikationspartner moduliert (siehe: Wahrgenommene Medienreichhaltigkeit).",
         "closeness": 0,
@@ -3981,7 +4281,10 @@
         "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         
         ],
         "description": "Die subjektive Effektivität und gefühlte Reichhaltigkeit eines Kommunikationsmediums durch einen Nutzer, bestimmt durch vierdimensionale Erfahrung gemäß Channel Expansion Theory (Carlson & Zmud, 1999). Die vier Erfahrungsdimensionen sind: (1) Erfahrung mit dem Medium selbst (Vertrautheit mit dem Tool, z.B. Video-Call-Software), (2) Erfahrung mit dem Thema (Fachwissen über Inhalt und Domain), (3) Erfahrung mit dem Partner (Verständnis von Paradigmen, Denkweisen, Kommunikationsstilen), und (4) Erfahrung mit dem Kontext (Kenntnis der Constraints, des Projekt-Hintergrunds, historischer Entscheidungen). Ein kritischer Effekt: Personen mit hoher Erfahrung in allen 4 Dimensionen können strukturell arme Medien (z.B. 2D-Skizze, Email) quasi-reichhaltig nutzen und erzielen damit Ergebnisse wie mit reicheren Medien. Umgekehrt kann mangelnde Erfahrung auch ein strukturell reiches Medium (z.B. kompliziertes Video-Konferenz-Tool) arm machen. Dies erklärt, warum manche Teams mit den gleichen Tools unterschiedlich effektiv kommunizieren.",
@@ -4009,8 +4312,13 @@
         "element type": "Einflussfaktoren",
         "cluster":" Ergebnisgrößen (Outcomes)",
           "tags": [
-          "MTO",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         
         ],
         
@@ -4068,7 +4376,10 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Prozessqualität der Retrospektive-Events: Regelmäßigkeit, psychologische Sicherheit, Strukturierung der Reflexion, Ableitung und Umsetzung konkreter Verbesserungsmaßnahmen. Die Retrospektive ist der primäre Mechanismus für kontinuierliche Prozessverbesserung und Lernen aus Erfahrungen. Messbar über Teilnahmequote, Anzahl umgesetzter Action Items, wahrgenommene psychologische Sicherheit im Team.",
         "measurability": 0.5,
@@ -4087,7 +4398,10 @@
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Explizite und systematische Reflexion während Retrospektiven darüber, wie wirksam die eingesetzten Kommunikationsmedien und -kanäle waren. Umfasst: Diskussionen über 'Was hat gut/nicht gut funktioniert bei unserer Kommunikation?', explizites Feedback zu Medium-Eignung pro Event/Aufgabe, Ableitung von Änderungen in der Medienwahl (z.B. 'Video für Daily', 'Whiteboard für Planning'). Messbar über: Häufigkeit von Medien-/Kommunikations-Diskussionen in Retro-Agendas, Dokumentierte Medium-Feedback und daraus resultierende Action-Items, Retro-Protokolle. Beeinflussbar durch: Moderations-Training zur gezielten Reflexion, explizite Agenda-Punkte ('Kommunikation Assessment'), psychologische Sicherheit.",
         "measurability": 0.5,
@@ -4106,8 +4420,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
-          "Technik + Organisation",
-          "taktisch / operativ"
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
         ],
         "measurability": 1,
         "influenceability": 1,
@@ -4125,7 +4441,10 @@
         "element type": "Einflussfaktoren",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
         "measurability": 0.5,
@@ -4143,8 +4462,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Mensch/Technik",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Grad der Kongruenz zwischen der Komplexität und Mehrdeutigkeit der Kommunikationsaufgabe und der Reichhaltigkeit des eingesetzten Kommunikationsmediums. Basiert auf Media Richness Theorie: Face-to-Face ist reichhaltig (unmittelbares Feedback, mehrere Kanäle, nonverbale Signale), asynchrone Text ist effizient, aber manchmal unzureichend für komplexe, mehrdeutige Aufgaben. Im Scrum-Kontext: Daily braucht synchron/nonverbal, Planning braucht Board-Tools, Retrospektive braucht Vertrauen-Umgebung, Review braucht geteilte Artefakt-Sicht. Messbar über Team-Feedback zu Medium-Eignung, Fehlerquoten in Kommunikation (Missverständnisse), Post-Event-Klarheits-Scores.",
         "measurability": 0.5,
@@ -4162,8 +4485,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Häufigkeit und Intensität der Nutzung eines bestimmten Kommunikationsmediums durch das Team innerhalb von Scrum-Events und Routinen (z.B. tägliche Video-Calls für Standups, regelmäßige Board-Tool-Nutzung für Planung, Retrospektiven im virtuellen Raum). Höherer Grad der Mediennutzung führt zu verbesserter Medienkompetenz (Vertrautheit mit Tool, Verbesserung der Nutzungseffektivität) und erhöhter wahrgenommener Medienreichhaltigkeit (Team sieht das Medium als effektiver an). Messbar durch: Adoption-Metriken (How often is the tool used), Logging (Session Duration, Feature Usage, Engagement), Team-Feedback (Zufriedenheit mit Medium). Beeinflussbar durch: Policy-Entscheidungen (wir nutzen Video für Dailies), Kultur und Norm-Setzung, Mandatory-vs-Optional-Regelungen.",
         "measurability": 0.5,
@@ -4200,8 +4527,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Ausmaß des zeitlichen Drucks/Engagement-Druck im aktuellen Sprint oder über eine längere Periode. Bestimmt durch: Days-to-Deadline, geschätzte vs. verfügbare Kapazität, externe Deadlines, organisatorischer Druck, Burndown-Geschwindigkeit. Unter hohem Zeitdruck wählen Teams pragmatischere, bequemere Kommunikationsmedien statt theoretisch optimaler (z.B. schnelle Chat-Absprache statt ausführliche Synchronisation). Messbar über Deadline-Nähe, Burndown-Geschwindigkeit, Velocity-Abweichung, Overtime-Stunden, Team-Feedback. Beeinflussbar durch bessere Estimation, Scope-Management, Visualisierung von Kapazität, Priorisierung. Quelle: Ishii et al. (2019) - pragmatische Faktoren der Medienwahl.",
         "measurability": 1.0,
@@ -4219,8 +4550,12 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "MT",
-          "alle Ebenen"
+          "Mensch",
+          "Technik",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Die deliberate oder habitualisierte Entscheidung und Umsetzung der Wahl des Kommunikationsmediums basierend auf Kontextvariablen (räumliche Nähe, zeitliche Überlappung, Aufgabenkomplexität, Stakeholder-Präferenzen). Dies unterscheidet sich von Kontextueller Bequemlichkeit: Während KB die Komforterfahrung und Gewöhnung an ein Medium beschreibt, bezieht sich Kontextuelle Medienwahl auf die zielgerichtete, situationsabhängige Auswahl des RICHTIGEN Mediums. Kontextuelle Bequemlichkeit ist ein Einflussfaktor, der zur Medienwahl beiträgt, aber nicht gleichzusetzen mit ihrer bewussten Auswahl. Beeinflusst die Effektivität von Kommunikation und damit die Kommunikationsqualität. Messbar über Häufigkeit und Alignment mit Best Practices pro Kontext. Beeinflussbar durch Training, kontextspezifische Richtlinien, Norm-Setting, Medium-Verfügbarkeit und Erfahrungsfeedback.",
         "measurability": 0.5,
@@ -4238,7 +4573,9 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsspeicherung (Persistenz)",
         "tags": [
-          "MTO",
+          "Mensch",
+          "Technik",
+          "Organisation",
           "operativ"
         ],
         "description": "Der Reifegrad eines Artefakts beschreibt den Grad der Vollständigkeit, Detailliertheit, Genauigkeit und Verständlichkeit von visuellen und dokumentarischen Artefakten (Prototypen, Mockups, Wireframes, Diagramme, Skizzen). Reife Artefakte enthalten mehr Informationen, sind expliziter in ihrer Darstellung und ermögliche bessere gemeinsame mentale Modelle zwischen Stakeholdern. Messbar über Vollständigkeits-Checklisten, Iterations-Count, Feedback-Zyklen, Detailgrad. Beeinflussbar durch iterative Verbesserung, Refinement-Qualität, Erfahrung und Kommunikation im Team.",
@@ -4257,7 +4594,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
@@ -4277,7 +4615,10 @@
         "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Grad des gemeinsamen Verständnisses im Team über Ziele, Anforderungen, Aufgaben und Kontext. Zentrale Erfolgsdimension gemäß Okhuysen & Bechky (2009) Common Understanding. Messbar über Team-Befragungen zu geteiltem Verständnis, Anzahl Missverständnisse/Rework durch Fehlinterpretationen, Konsistenz in Entscheidungen. Beeinflussbar durch Qualität der Kommunikation, Konvergenz-Mechanismen, geteilte mentale Modelle.",
         "measurability": 0.5,
@@ -4295,8 +4636,14 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "Mensch/Organisation",
-          "alle Ebenen"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
+
+          
         ],
         "description": "Qualitaet des strukturierten Einstiegs neuer Teammitglieder: Vermittlung von Kontext, Arbeitsweisen, Rollen und vorhandenen Wissensbestaenden. Gute Onboarding-Prozesse reduzieren Ramp-up-Zeit und erhoehen Sicherheit und Anschlussfaehigkeit.",
         "measurability": 0.5,
@@ -4314,8 +4661,10 @@
         "element type": "Einflussfaktoren",
         "cluster": "Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Mensch + Organisation",
-          "operativ + normativ"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "normativ"
         ],
         "description": "Qualitaet spontaner, nicht formalisierter Kommunikation (z.B. kurze Rueckfragen, Ad-hoc-Abstimmungen, informeller Austausch). Hohe Qualitaet bedeutet: schnell, respektvoll, loesungsorientiert und mit ausreichendem Kontext.",
         "measurability": 0.5,
@@ -4350,8 +4699,11 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "MTO",
-          "operativ / taktisch"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch"
         ],
         "description": "Die habituellen Vorlieben und tradierten Gewohnheiten der Team-Mitglieder für bestimmte Kommunikationskanäle und Medien. Jedes Team entwickelt über die Zeit gewisse Präferenzen für Kommunikationstools, Protokolle und Kanäle (z.B. Slack vs. Email, Synchron vs. Asynchron, F2F vs. Remote-Tools). Diese Präferenzen sind oft pfadabhängig (einmal etabliert, schwer zu ändern) und können von reiner Media-Richness-Theorie abweichen. Teampräferenzen können pragmatisch sinnvoll sein (bewährte Werkzeuge) oder suboptimal (Gewöhnung übertrumpft bessere Optionen). Messbar über Tool-Nutzungsstatistiken, Kommunikationsmuster-Analysen, Team-Feedback zu Kanal-Vorlieben. Beeinflussbar durch Führungs-Initiative, Schulung, positives Feedback bei neuen Kanälen, Zug-Zang-Momente.",
         "measurability": 1.0,
@@ -4381,7 +4733,10 @@
         "element type": "Einflussfaktoren",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Das Verständnis des Teams über den SPEZIFISCHEN Zweck eines Koordinationsmechanismus (z.B. Daily findet Blöcker FRÜH, Retro schafft Lernraum, Refinement schafft Klarheit). Teams, die verstehen WARUM ein Ritual existiert, nutzen es intentional statt als Overhead.",
         "measurability": 0.5,
@@ -4399,7 +4754,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "description": "Vorhandensein und Zugänglichkeit von Tools und Räumen für gemeinsame Artefakt-Erstellung und -Nutzung (Whiteboards, Skizzen-Tools, Visualisierungs-Software, Prototyping-Tools, geteilte Workspaces, kollaborative Design-Plattformen). Unterscheidet sich von Artefakt-Qualität/-Reifegrad durch Fokus auf Infrastruktur-Verfügbarkeit. Messbar über: Anzahl verfügbarer Tools/Räume, Accessibility, Lizenz-Verfügbarkeit, Team-Feedback zur Tool-Abdeckung. Beeinflussbar durch: Budget-Allocation, Procurement-Entscheidungen, Workspace-Design.",
@@ -4438,7 +4794,10 @@
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Prozess und Faehigkeit, unreflektierte Annahmen und implizites Wissen explizit zu machen und mit dem Team zu kommunizieren. Ermoeglicht gemeinsame Modelle und vermeidet verdeckte Konflikte.",
         "measurability": 0.5,
@@ -4456,8 +4815,10 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "Organisation + Technik",
-          "taktisch / operativ"
+          "Organisation",
+          "Technik",
+          "taktisch",
+          "operativ"
         ],
         "description": "Wie oft Anforderungen während eines Sprints hinzukommen oder sich ändern (Scope Creep Rate). Direkter Indikator für Anforderungsvolatilität und Vorhersehbarkeit. Umfasst neue Features, geänderte Akzeptanzkriterien, technische Umplanungen und externe Stakeholder-Anfragen mid-sprint. Eine hohe Volatilität destabilisiert Planung, erhöht Koordinationsaufwand und beeinträchtigt gemeinsame mentale Modelle.",
         "measurability": 1.0,
@@ -4484,7 +4845,10 @@
         "cluster":" Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
-          "alle Ebenen"
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "description": "Ausmaß, in dem Arbeit gemeinsam und ko-kreativ statt nur arbeitsteilig/kooperativ erfolgt.",
         "measurability": 0.5,
