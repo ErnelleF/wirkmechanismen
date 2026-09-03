@@ -1,5 +1,57 @@
 {
   "elements": [
+    
+{
+      "_id": "hub-1",
+      "attributes": {
+        "label": "Informationsinput",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-2",
+      "attributes": {
+        "label": "Informationsverarbeitung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-3",
+      "attributes": {
+        "label": "Informationsverteilung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-4",
+      "attributes": {
+        "label": "Informationsspeicherung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-5",
+      "attributes": {
+        "label": "Informationsnutzung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-6",
+      "attributes": {
+        "label": "Rahmenbedingungen",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-7",
+      "attributes": {
+        "label": "Ergebnisgrößen",
+        "element type": "ClusterHub"
+      }
+    },
+
+
     {
       "_id": "elem-0PyumJeh",
       "attributes": {
@@ -4892,6 +4944,58 @@
     }
   ],
   "connections": [
+    
+{
+      "_id": "hub-1",
+      "attributes": {
+        "label": "Informationsinput",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-2",
+      "attributes": {
+        "label": "Informationsverarbeitung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-3",
+      "attributes": {
+        "label": "Informationsverteilung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-4",
+      "attributes": {
+        "label": "Informationsspeicherung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-5",
+      "attributes": {
+        "label": "Informationsnutzung",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-6",
+      "attributes": {
+        "label": "Rahmenbedingungen",
+        "element type": "ClusterHub"
+      }
+    },
+    {
+      "_id": "hub-7",
+      "attributes": {
+        "label": "Ergebnisgrößen",
+        "element type": "ClusterHub"
+      }
+    },
+
+
     {
       "_id": "conn-0JHqBhhT",
       "direction": "directed",
